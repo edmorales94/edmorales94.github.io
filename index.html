@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content ="Software Developer/Freelancer">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/script.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
+
+    <title>Software Developer</title>
+</head>
+
+
+
+<body>
+<!---------- Navigation Bar Section ----------------------------------------------------------------------------------->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class = "container-fluid">
+        <div class = "navbar-header">
+            <button type ="button" class = "navbar-toggle btn " data-toggle = "collapse" data-target = "#myNavBar"> <!-- Menu button/toggle: wraps the mobile toggle icon/collapse:hides content(menu button) -->
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+            </button>
+            <a class="navbar-brand nonclickable" href="#topOfPage">Edgar Morales</a> <!-- brand name next to the navbar -->
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right" id="myNavBar"> <!-- navbar-collapse:The content inside the navbar that will be hidden with the mobile -->
+            <ul class="nav navbar-nav"> <!-- navbar-nav: The wrapper class of the navigation elements excluding the brand(Name next to the menu) -->
+                <li> <a href="#topOfPage">Home</a></li>
+                <li> <a href="#about">Portfolio</a> </li>
+                <li> <a href="#services">Contact </a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!---------- Container of all the website content --------------------------------------------------------------------->
+    <div class="container">
+        <div id="introPictures" class="container">
+            <a id="topOfPage"></a>
+            <img src="images/code.jpg" id="backgroundImage" class="img-responsive">
+            <img src="images/Edgar%20Morales.jpg" id="me" class="img-responsive img-circle">
+        </div>
+        <div id="introduction">
+            <h1 id="myName">Edgar Morales</h1>
+            <h2 id="major">Software Developer</h2>
+            <p id ="paragraph"> System.out.println("Hello world! My name is Edgar Morales, I'm 23 years old currently
+                studying my second semester towards my Master's degree in Computer Science at Brooklyn College
+                in(as the name suggests) Brooklyn, New York. What do I do? I design, build, and code. I started
+                my programming journey just a few years ago with
+                a dies simulator, and since that day I knew my true calling.
+                <br>
+                <br>I have a moderate background in Computer Science, so Java and Python are my weapons of choice
+                for solving problems. Whether it's high level or low level I love getting my hands dirty and making
+                things work, especially if it involves learning new concepts. I'm always tinkering with something,
+                whether it's making Python or Java applications, improving my HTML/CSS skills, or just experimenting
+                with JavaScript.
+                <br>
+                <br>When I'm not coding, I enjoy wandering the city (on foot or on bike), play video games, read books
+                and mangas, watch movies and animes, go out to eat ramen, go to karaokes, paintball, laser tag, among
+                other activities. I adore to explore NYC's beauty, its food, and its cultures.");</p>
+                <br>
+                <br>
+                <a href="resume.pdf" class="btn btn-info btn-lg" role="button">Resume</a>
+        </div>
+
+        <!-- Portfolio section ---------------------------------------------------------------------------------------->
+        <section id="portfolio">
+            <div class="container gallery-container">
+                <h1 class="page-description text-center text-uppercase">Portfolio</h1>
+                <p class="text-center">Programming projects with their descriptions</p>
+
+                <div class="tz-gallery">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <a class="lightbox" href="images/code.jpg">
+                                    <img src="images/code.jpg">
+                                </a>
+                                <div class="caption">
+                                    <h3>Project Name</h3>
+                                    <p>Project description</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <a class="lightbox" href="images/Edgar%20Morales.jpg">
+                                    <img src="images/Edgar%20Morales.jpg">
+                                </a>
+                                <div class="caption">
+                                    <h3>Project Name</h3>
+                                    <p>Project description</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <a class="lightbox" href="images/code.jpg">
+                                    <img src="images/code.jpg">
+                                </a>
+                                <div class="caption">
+                                    <h3>Project Name</h3>
+                                    <p>Project description</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                                <a class="lightbox" href="images/code.jpg">
+                                    <img src="images/code.jpg">
+                                </a>
+                                <div class="caption">
+                                    <h3>Project Name</h3>
+                                    <p>Project description</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>
