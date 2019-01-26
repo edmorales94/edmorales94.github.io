@@ -46,5 +46,19 @@ span{
     left: 50%;
     width: 50%;
     height: 4px;
-    
+    background: #fff000;
+    transform-origin: left;
+    animation: animate 2s linear infinite;
+}
+
+span:before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff000;
+    top: -8px;
+    right: -8px;
+    box-shadow: 0 0 20px #fff000;
 }
