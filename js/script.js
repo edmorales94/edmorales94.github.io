@@ -2,7 +2,13 @@ var canvas = document.getElementById('particles'),
    can_w = parseInt(canvas.getAttribute('width')),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
-
+var widthofhtml = document.documentElement.clientWidth;
+var totalParticles = 55;
+if(widthofhtml < 500){
+    totalParticles = 38;
+}
+console.log("width: " + widthofhtml);
+console.log("total particles:" + totalParticles);
 var ball = {
       x: 0,
       y: 0,
@@ -64,7 +70,6 @@ function randomArrayItem(arr){
 function randomNumFrom(min, max){
     return Math.random()*(max - min) + min;
 }
-console.log(randomNumFrom(0, 10));
 // Random Ball
 function getRandomBall(){
     var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
@@ -186,7 +191,7 @@ function getDisOf(b1, b2){
 
 // add balls if there a little balls
 function addBallIfy(){
-    if(balls.length < 20){
+    if(balls.length < totalParticles){
         balls.push(getRandomBall());
     }
 }
