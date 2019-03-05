@@ -126,11 +126,12 @@ function randomSidePos(length){
 
 // Draw Ball
 function renderBalls(){
+    //Here's the code for the width of the particles
     Array.prototype.forEach.call(balls, function(b){
        if(!b.hasOwnProperty('type')){
            ctx.fillStyle = 'rgba('+ball_color.r+','+ball_color.g+','+ball_color.b+','+b.alpha+')';
            ctx.beginPath();
-           ctx.arc(b.x, b.y, 4, 0, Math.PI*2, true);
+           ctx.arc(b.x, b.y, 6, 0, Math.PI*2, true);
            ctx.closePath();
            ctx.fill();
        }
