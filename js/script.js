@@ -1,14 +1,16 @@
-var canvas = document.getElementById('particles'),
+let canvas = document.getElementById('particles'),
    can_w = parseInt(canvas.getAttribute('width')),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
-var widthofhtml = document.documentElement.clientWidth;
-var totalParticles = 55;
+
+const widthofhtml = document.documentElement.clientWidth;
+let totalParticles = 55;
 if(widthofhtml < 500){
     totalParticles = 38;
 }
 console.log("width: " + widthofhtml);
 console.log("total particles:" + totalParticles);
+
 var ball = {
       x: 0,
       y: 0,
@@ -209,6 +211,11 @@ function render(){
 
     addBallIfy();
 
+    ctx.font = "900 48px Open Sans";
+    ctx.fillStyle = "white";
+    ctx.textAlign = "center";
+    ctx.fillText("Software Developer".toUpperCase(), canvas.width/2, canvas.height/2);
+
     window.requestAnimationFrame(render);
 }
 
@@ -237,6 +244,10 @@ function initCanvas(){
 window.addEventListener('resize', function(e){
     console.log('Window Resize...');
     initCanvas();
+    ctx.font = "30px Comic Sans MS";
+    ctx.fillStyle = "red";
+    ctx.textAlign = "center";
+    ctx.fillText("Hello World", canvas.width/2, canvas.height/2);
 });
 
 function goMovie(){
@@ -269,6 +280,7 @@ canvas.addEventListener('mousemove', function(e){
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 });
+
 
 
 
