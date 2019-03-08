@@ -4,7 +4,7 @@ let canvas = document.getElementById('particles'),
    ctx = canvas.getContext('2d');
 
 const widthofhtml = document.documentElement.clientWidth;
-let totalParticles = 55;
+let totalParticles = 60;
 if(widthofhtml < 500){
     totalParticles = 38;
 }
