@@ -13,14 +13,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyWebsite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="236" column="33" lean-forward="true" selection-start-line="236" selection-start-column="33" selection-end-line="236" selection-end-column="33" />
+            <state relative-caret-position="355">
+              <caret line="267" column="77" selection-start-line="267" selection-start-column="77" selection-end-line="267" selection-end-column="77" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -181,12 +183,12 @@
       <workItem from="1552007229255" duration="4997000" />
       <workItem from="1552095689529" duration="4590000" />
       <workItem from="1552100447495" duration="702000" />
-      <workItem from="1552185515113" duration="2991000" />
+      <workItem from="1552185515113" duration="3803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49296000" />
+    <option name="totallyTimeSpent" value="50108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,14 +259,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyWebsite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="236" column="33" lean-forward="true" selection-start-line="236" selection-start-column="33" selection-end-line="236" selection-end-column="33" />
+        <state relative-caret-position="355">
+          <caret line="267" column="77" selection-start-line="267" selection-start-column="77" selection-end-line="267" selection-end-column="77" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
