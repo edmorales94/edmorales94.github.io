@@ -2,10 +2,25 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+
+body{
+    overflow-x: hidden;
+    /*Explanation: https://github.com/necolas/normalize.css/issues/665 */
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+p{
+    line-height: 1.75;
+}
+
+a{
+    /*Color for links*/
+    color: #fed136;
+}
+
+a:hover{
+    /*Color when hovering over links*/
+    color: #33ffff;
 }
 canvas{
     background-color: #151521;
