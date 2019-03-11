@@ -22,6 +22,46 @@ a:hover{
     /*Color when hovering over links*/
     color: #33ffff;
 }
+
+#navigationBar{
+    background-color: #212529;
+}
+
+/*Mobile menu style*/
+#navigationBar .navbar-toggler{
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #006666;
+}
+
+/*Brand text, size, and color*/
+#navigationBar .navbar-brand{
+    color: white ;
+    font-family: 'Kaushan Script';
+    font-size: 30px;
+}
+
+/*Hovering over the brand name*/
+#navigationBar .navbar-brand.active, #navigationBar  .navbar-brand:active, #navigationBar .navbar-brand:focus, #navigationBar .navbar-brand:hover{
+    color: #fec503;
+}
+
+/*Navigation items text, size, color*/
+#navigationBar .navbar-nav .nav-item .nav-link{
+    font-size: 90%;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+/*Hovering over a navigation bar item*/
+#navigationBar .navbar-nav .nav-item .nav-link.active, #navigationBar .navbar-nav .nav-item .nav-link:hover{
+    color: #33ffff;
+}
 canvas{
     background-color: #151521;
     width: 100%;
