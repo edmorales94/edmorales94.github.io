@@ -23,6 +23,11 @@ a:hover{
     color: #33ffff;
 }
 
+/*color for the background of the services icons*/
+.text-primary{
+    color: #33eeee !important;
+}
+
 #navigationBar{
     background-color: #212529;
 }
