@@ -114,7 +114,7 @@ section h3.section-subheading{
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    content: '';
+    content: ' ';
     background-color: #e9ecef;
 }
 
@@ -124,5 +124,25 @@ section h3.section-subheading{
     min-height: 50px;
     margin-bottom: 50px;
 }
+
+.timeline > li:before, .timeline > li:after{
+    display: table;
+    content: ' ';
+}
+
+.timeline > li:after{
+    clear: both;
+}
+
+/* putting distance between the line and the timeline items */
+.timeline > li .timeline-panel{
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+
 
 
