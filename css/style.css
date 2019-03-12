@@ -89,3 +89,25 @@ section h2.section-heading{
     margin-top: 0;
     margin-bottom: 15px;
 }
+
+section h3.section-subheading{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif", sans-serif;
+}
+
+/*deleting the dots of the ul style from the timeline in about*/
+.timeline{
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before{
+    position: absolute;
+}
+
+
