@@ -115,7 +115,14 @@ section h3.section-subheading{
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: red;
+    background-color: #e9ecef;
+}
+
+/*This part hides the timeline line behind a picture*/
+.timeline > li{
+    position: relative; /*this hides the line behind a picture if there's one*/
+    min-height: 50px;
+    margin-bottom: 50px;
 }
 
 
