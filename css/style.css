@@ -158,5 +158,21 @@ section h3.section-subheading{
     border-left-width: 0;
 }
 
+.timeline > li .timeline-image{
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #006666;
+}
+
+
+
 
 
