@@ -46,8 +46,8 @@ var ball = {
 
 // Random speed
 function getRandomSpeed(pos){
-    var  min = -1,
-       max = 1;
+    var  min = -0.5,
+       max = 0.5;
     switch(pos){
         case 'top':
             return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
