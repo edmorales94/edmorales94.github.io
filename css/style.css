@@ -225,3 +225,12 @@ section h3.section-subheading{
 }
 
 
+.btn{
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.btn-xl{
+    font-size: 18px;
+    padding: 20px 40px;
+}
