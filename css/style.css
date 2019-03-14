@@ -214,5 +214,14 @@ section h3.section-subheading{
     color: inherit;
 }
 
+/*change the styling of the subtitles of the timeline items*/
+.timeline .timeline-heading h4.subheading{
+    text-transform: none;
+}
+
+/*Styling the paragraphs of the timeline items*/
+.timeline .timeline-body >ul, .timeline .timeline-body > p{
+    margin-bottom: 0;
+}
 
 
