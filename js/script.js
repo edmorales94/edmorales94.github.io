@@ -211,7 +211,8 @@ function render(){
 
     addBallIfy();
 
-    ctx.font = "900 48px Open Sans";
+    const size = window.innerWidth/20;
+    ctx.font = "900 " + size + "px Open Sans";
     ctx.fillStyle = "white";
     ctx.textAlign = "center";
     ctx.fillText("Software Developer".toUpperCase(), canvas.width/2, canvas.height/2);
