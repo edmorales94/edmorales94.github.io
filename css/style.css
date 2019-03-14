@@ -181,5 +181,38 @@ section h3.section-subheading{
     color: red;
 }
 
+/*Setting even numbered paragraphs of the timeline to the right side of timeline*/
+.timeline > li.timeline-inverted > .timeline-panel{
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+    color: #fed136;
+}
+
+
+.timeline > li.timeline-inverted > .timeline-panel:before{
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after{
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline > li:last-child{
+    margin-bottom: 0;
+}
+
+/* can changed the color of the headings of the timeline*/
+.timeline .timeline-heading h4{
+    margin-top: 0;
+    color: inherit;
+}
+
 
 
