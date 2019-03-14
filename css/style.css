@@ -234,3 +234,8 @@ section h3.section-subheading{
     font-size: 18px;
     padding: 20px 40px;
 }
+
+.btn-primary{
+    background-color: #33ffff;
+    border-color: #006666;
+}
