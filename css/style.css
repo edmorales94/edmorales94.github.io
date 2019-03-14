@@ -239,3 +239,8 @@ section h3.section-subheading{
     background-color: #33ffff;
     border-color: #006666;
 }
+
+.btn-primary:hover{
+    background-color: red !important;
+    border-color: #fec810 !important;
+}
