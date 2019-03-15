@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="276" column="35" selection-start-line="276" selection-start-column="35" selection-end-line="276" selection-end-column="35" />
+            <state relative-caret-position="172">
+              <caret line="268" column="92" selection-start-line="268" selection-start-column="92" selection-end-line="268" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -207,12 +207,12 @@
       <workItem from="1552355230710" duration="3158000" />
       <workItem from="1552518659762" duration="6176000" />
       <workItem from="1552525518647" duration="229000" />
-      <workItem from="1552538257108" duration="8501000" />
+      <workItem from="1552538257108" duration="8554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84648000" />
+    <option name="totallyTimeSpent" value="84701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="276" column="35" selection-start-line="276" selection-start-column="35" selection-end-line="276" selection-end-column="35" />
+        <state relative-caret-position="172">
+          <caret line="268" column="92" selection-start-line="268" selection-start-column="92" selection-end-line="268" selection-end-column="92" />
         </state>
       </provider>
     </entry>
