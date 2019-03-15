@@ -33,6 +33,21 @@ a:hover{
     color: #33eeee !important;
 }
 
+::selection{
+    background: blueviolet;
+    text-shadow: #006666;
+}
+
+img::selection{
+    background: blueviolet;
+}
+
+img::-moz-selection{
+    background: transparent;
+}
+
+
+/*--------------- Navigation bar code --------------------------------------------------------------------------------*/
 #navigationBar{
     background-color: #212529;
 }
@@ -73,6 +88,7 @@ a:hover{
     color: #33ffff;
 }
 
+/*------------- Canvas code ------------------------------------------------------------------------------------------*/
 canvas{
     /*background-color: #151521;*/
     width: 100%;
@@ -83,6 +99,7 @@ canvas{
     background-size: initial;
 }
 
+/*--------------- Sections style code --------------------------------------------------------------------------------*/
 section{
     padding: 100px 0;
 }
@@ -102,6 +119,7 @@ section h3.section-subheading{
     font-family: "Droid Serif", sans-serif;
 }
 
+/*--------------- Time line code -------------------------------------------------------------------------------------*/
 /*deleting the dots of the ul style from the timeline in about*/
 .timeline{
     position: relative;
@@ -228,6 +246,7 @@ section h3.section-subheading{
 }
 
 
+/*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
     font-family: 'Montserrat';
     font-weight: 700;
@@ -248,4 +267,9 @@ section h3.section-subheading{
     background-color: red !important;
     border-color: #fec810 !important;
     color: black;
+}
+
+.btn-primary:active, .btn-primary:focus{
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
