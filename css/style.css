@@ -119,7 +119,7 @@ section h3.section-subheading{
     font-family: "Droid Serif", sans-serif;
 }
 
-/*--------------- Time line code -------------------------------------------------------------------------------------*/
+/*--------------- Time line(About section) code ----------------------------------------------------------------------*/
 /*deleting the dots of the ul style from the timeline in about*/
 .timeline{
     position: relative;
@@ -245,7 +245,41 @@ section h3.section-subheading{
     margin-bottom: 0;
 }
 
+/*--------------- services code --------------------------------------------------------------------------------------*/
+.service-heading{
+    margin: 15px 0;
+    text-transform: none;
+}
 
+/*--------------- Portfolio section code -----------------------------------------------------------------------------*/
+#portfolio .portfolio-item{
+    right: 0;
+    margin: 0 0 15px;
+}
+
+/*This changes the mouses arrow shape to a pointer*/
+#portfolio .portfolio-item .portfolio-link{
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/*removes the plus indicators from the portfolio pictures*/
+#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(0, 0, 255, 0.5);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
+    opacity: 1;
+}
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
     font-family: 'Montserrat';
