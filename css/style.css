@@ -74,10 +74,13 @@ a:hover{
 }
 
 canvas{
-    background-color: #151521;
+    /*background-color: #151521;*/
     width: 100%;
     height: 581px;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url("../images/universe.jpg");
+    background-size: initial;
 }
 
 section{
