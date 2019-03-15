@@ -241,9 +241,11 @@ section h3.section-subheading{
 .btn-primary{
     background-color: #33ffff;
     border-color: #006666;
+    color: black;
 }
 
-.btn-primary:hover{
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover{
     background-color: red !important;
     border-color: #fec810 !important;
+    color: black;
 }
