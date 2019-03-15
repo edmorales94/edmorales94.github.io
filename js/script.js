@@ -21,9 +21,9 @@ var ball = {
       phase: 0
    },
    ball_color = {
-       r: 207,
+       r: 255,
        g: 255,
-       b: 4
+       b: 255
    },
    R = 2,
    balls = [],
@@ -248,7 +248,6 @@ window.addEventListener('resize', function(e){
     ctx.font = "30px Comic Sans MS";
     ctx.fillStyle = "red";
     ctx.textAlign = "center";
-    ctx.fillText("Hello World", canvas.width/2, canvas.height/2);
 });
 
 function goMovie(){
