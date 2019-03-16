@@ -331,8 +331,55 @@ section h3.section-subheading{
 
 
 /*--------------- Portfolio modals -----------------------------------------------------------------------------------*/
+.portfolio-modal{
+    padding-right: 0px !important;
+}
 
+/*makes the modal use almost the full screen*/
+.portfolio-modal .modal-dialog{
+    margin: 1rem;
+    max-width: 100vw;
+}
 
+/*makes the text in the modal to move to the center*/
+.portfolio-modal .modal-content{
+    padding: 50px 0;
+    text-align: center;
+}
+
+/*title inside the modal*/
+.portfolio-modal .modal-content h2{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/*paragraphs inside the modal*/
+.portfolio-modal .modal-content p{
+    margin-bottom: 30px;
+}
+
+/*subheader style for the modals*/
+.portfolio-modal .modal-content p.item-intro{
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    font-family: 'Droid Serif';
+}
+
+/* Date and subject style code*/
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+/*mouse arrow changes shape when hovered on the close button*/
+.portfolio-modal .modal-content button {
+    cursor: pointer;
+}
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
     font-family: 'Montserrat';
