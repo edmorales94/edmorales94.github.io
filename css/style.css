@@ -281,10 +281,30 @@ section h3.section-subheading{
     opacity: 1;
 }
 
-
+/*moved the plus icons a little to the top*/
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
+
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+/*centers the plus sign in the middle of the pictures, sets its size and color*/
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+
+
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
     font-family: 'Montserrat';
