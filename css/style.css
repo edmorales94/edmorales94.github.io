@@ -395,6 +395,33 @@ section h3.section-subheading{
 .portfolio-modal .close-modal:hover{
     opacity: 0.3;
 }
+
+
+/*draws the line of the closing cross from left bottom to right */
+.portfolio-modal .close-modal .lr{
+    /*safari and chrome*/
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /*IE 9*/
+    -webkit-transform: rotate(45deg);/*the line initially is drawn vertically but we rotate clockwise 45 deg*/
+    transform: rotate(45deg);
+    background-color: #212529;
+}
+
+.portfolio-modal .close-modal .lr .rl{
+    /*safari and chrome*/
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /*IE 9*/
+    -webkit-transform: rotate(90deg);/*the line initially is drawn vertically but we rotate clockwise 45 deg*/
+    transform: rotate(90deg);
+    background-color: #212529;
+}
+
+/*--------------- Team member section --------------------------------------------------------------------------------*/
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
     font-family: 'Montserrat';
