@@ -422,6 +422,16 @@ section h3.section-subheading{
 }
 
 /*--------------- Team member section --------------------------------------------------------------------------------*/
+.team-member{/*aligned all the lines in the team section to the center*/
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img{
+    width: 225px;
+    height: 225px;
+    border: 7px solid #212529;
+}
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
     font-family: 'Montserrat';
