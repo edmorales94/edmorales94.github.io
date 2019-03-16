@@ -266,7 +266,7 @@ section h3.section-subheading{
     cursor: pointer;
 }
 
-/*removes the plus indicators from the portfolio pictures and adds a blue layer when hovered*/
+/*places the plus indicators inside the portfolio pictures and adds a blue layer when hovered*/
 #portfolio .portfolio-item .portfolio-link .portfolio-hover{
     position: absolute;
     width: 100%;
@@ -279,6 +279,11 @@ section h3.section-subheading{
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
     opacity: 1;
+}
+
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+
 }
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
