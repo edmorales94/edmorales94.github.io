@@ -380,6 +380,21 @@ section h3.section-subheading{
 .portfolio-modal .modal-content button {
     cursor: pointer;
 }
+
+/*This is the cross at the top right corner of the modal*/
+.portfolio-modal .close-modal{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.portfolio-modal .close-modal:hover{
+    opacity: 0.3;
+}
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
     font-family: 'Montserrat';
