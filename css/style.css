@@ -304,6 +304,18 @@ section h3.section-subheading{
     color: white;
 }
 
+/*Style for the captions below the portfolio images*/
+#portfolio .portfolio-item .portfolio-caption{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
 
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
