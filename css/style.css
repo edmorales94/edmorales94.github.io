@@ -515,13 +515,13 @@ section#contact :-ms-input-placeholder {/* IE 10+ */
     padding: 20px 40px;
 }
 
-.btn-primary{
+.btn-primary{/*button inside the contact form*/
     background-color: #33ffff;
     border-color: #006666;
     color: black;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover{
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover{/*button inside the contact form when hovered*/
     background-color: red !important;
     border-color: #fec810 !important;
     color: black;
