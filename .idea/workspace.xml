@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebsite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="60" column="14" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="60" selection-end-column="14" />
+            <state relative-caret-position="390">
+              <caret line="179" column="48" selection-start-line="179" selection-start-column="48" selection-end-line="179" selection-end-column="48" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -23,6 +23,7 @@
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -31,51 +32,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/css/agency.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="true" selection-end-line="696" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="542" column="18" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
-              <folding>
-                <element signature="e#1#68#0" />
-                <element signature="e#74#288#0" />
-                <element signature="e#313#539#0" />
-                <element signature="e#542#568#0" />
-                <element signature="e#571#618#0" />
-                <element signature="e#627#689#0" />
-                <element signature="e#755#789#0" />
-                <element signature="e#802#859#0" />
-                <element signature="e#875#906#0" />
-                <element signature="e#927#959#0" />
-                <element signature="e#1097#1131#0" />
-                <element signature="e#1185#1337#0" />
-                <element signature="e#1399#1477#0" />
-                <element signature="e#1657#1680#0" />
-                <element signature="e#1767#1870#0" />
-                <element signature="e#2019#2042#0" />
-                <element signature="e#2171#2384#0" />
-                <element signature="e#2514#2539#0" />
-                <element signature="e#2567#2635#0" />
-                <element signature="e#2666#2831#0" />
-                <element signature="e#3028#3093#0" />
-                <element signature="e#3174#3334#0" />
-                <element signature="e#3405#3535#0" />
-                <element signature="e#3580#3621#0" />
-                <element signature="e#3643#3663#0" />
-                <element signature="e#3758#3871#0" />
-                <element signature="e#3910#4003#0" />
-                <element signature="e#4042#4135#0" />
-                <element signature="e#4227#4469#0" />
-                <element signature="e#4545#4630#0" />
-                <element signature="e#4765#4857#0" />
-                <element signature="e#4917#5010#0" />
-                <element signature="e#5068#5161#0" />
-                <element signature="e#5188#5213#0" />
-                <element signature="e#5304#5346#0" />
-                <element signature="e#5451#5480#0" />
-                <element signature="e#5589#5614#0" />
-                <element signature="e#5753#5802#0" />
-              </folding>
+            <state relative-caret-position="11141">
+              <caret line="661" column="1" selection-start-line="661" selection-start-column="1" selection-end-line="661" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/js/agency.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -120,9 +99,9 @@
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/python programs/node.py" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/MyWebsite.html" />
         <option value="$PROJECT_DIR$/../../startbootstrap-agency-master/index.html" />
         <option value="$PROJECT_DIR$/../../startbootstrap-agency-master/css/agency.css" />
+        <option value="$PROJECT_DIR$/MyWebsite.html" />
         <option value="$PROJECT_DIR$/../../startbootstrap-agency-master/js/agency.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -134,7 +113,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1905" />
     <option name="width" value="1950" />
     <option name="height" value="2055" />
@@ -252,12 +231,12 @@
       <workItem from="1552693901062" duration="8675000" />
       <workItem from="1552706175140" duration="203000" />
       <workItem from="1552706872500" duration="286000" />
-      <workItem from="1552787823190" duration="7037000" />
+      <workItem from="1552787823190" duration="9399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101177000" />
+    <option name="totallyTimeSpent" value="103539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,10 +248,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="635" y="0" width="650" height="685" extended-state="0" />
+    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.048701297" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.145469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,20 +299,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/css/agency.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="127" selection-start-line="21" selection-start-column="127" selection-end-line="21" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/js/agency.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -351,10 +316,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/js/agency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyWebsite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="60" column="14" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="60" selection-end-column="14" />
+        <state relative-caret-position="390">
+          <caret line="179" column="48" selection-start-line="179" selection-start-column="48" selection-end-line="179" selection-end-column="48" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -363,6 +335,7 @@
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
@@ -370,50 +343,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-end-line="696" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="542" column="18" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
-          <folding>
-            <element signature="e#1#68#0" />
-            <element signature="e#74#288#0" />
-            <element signature="e#313#539#0" />
-            <element signature="e#542#568#0" />
-            <element signature="e#571#618#0" />
-            <element signature="e#627#689#0" />
-            <element signature="e#755#789#0" />
-            <element signature="e#802#859#0" />
-            <element signature="e#875#906#0" />
-            <element signature="e#927#959#0" />
-            <element signature="e#1097#1131#0" />
-            <element signature="e#1185#1337#0" />
-            <element signature="e#1399#1477#0" />
-            <element signature="e#1657#1680#0" />
-            <element signature="e#1767#1870#0" />
-            <element signature="e#2019#2042#0" />
-            <element signature="e#2171#2384#0" />
-            <element signature="e#2514#2539#0" />
-            <element signature="e#2567#2635#0" />
-            <element signature="e#2666#2831#0" />
-            <element signature="e#3028#3093#0" />
-            <element signature="e#3174#3334#0" />
-            <element signature="e#3405#3535#0" />
-            <element signature="e#3580#3621#0" />
-            <element signature="e#3643#3663#0" />
-            <element signature="e#3758#3871#0" />
-            <element signature="e#3910#4003#0" />
-            <element signature="e#4042#4135#0" />
-            <element signature="e#4227#4469#0" />
-            <element signature="e#4545#4630#0" />
-            <element signature="e#4765#4857#0" />
-            <element signature="e#4917#5010#0" />
-            <element signature="e#5068#5161#0" />
-            <element signature="e#5188#5213#0" />
-            <element signature="e#5304#5346#0" />
-            <element signature="e#5451#5480#0" />
-            <element signature="e#5589#5614#0" />
-            <element signature="e#5753#5802#0" />
-          </folding>
+        <state relative-caret-position="11141">
+          <caret line="661" column="1" selection-start-line="661" selection-start-column="1" selection-end-line="661" selection-end-column="1" />
         </state>
       </provider>
     </entry>
