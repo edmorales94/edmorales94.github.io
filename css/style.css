@@ -572,4 +572,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
         height: 100px;
         margin-left: -50px;
     }
+
+    .timeline > li .timeline-image h4{
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px;
+    }
 }
