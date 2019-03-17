@@ -469,6 +469,10 @@ section#contact .form-group input.form-control{
     height: auto;/*name and email space height*/
 }
 
+section#contact .form-group textarea.form-control{
+    height: 248px;/*Changing the size of the message box*/
+}
+
 
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
