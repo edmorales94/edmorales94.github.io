@@ -531,3 +531,10 @@ section#contact :-ms-input-placeholder {/* IE 10+ */
     -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
+
+/*--------------- Footer ---------------------------------------------------------------------------------------------*/
+footer{ /*changes the position of the copyright and social links*/
+    padding: 25px 0;
+    text-align: center;
+}
+
