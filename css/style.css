@@ -28,17 +28,17 @@ a:hover{
     color: #33eeee !important;
 }
 
-::selection{ /*when selection text, the selection color is set here*/
+::selection{ /*when selecting text, the selection color is set here*/
     background:deepskyblue;
     text-shadow: #006666;
 }
 
-img::selection{
+img::selection{/*when selecting an image, the selection color is set here*/
     background: deepskyblue;
 }
 
-img::-moz-selection{
-    background: transparent;
+img::-moz-selection{/*firefox*/
+    background: deepskyblue;
 }
 
 
@@ -280,10 +280,6 @@ section h3.section-subheading{
     background: rgba(0, 0, 255, 0.5);
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
-    opacity: 1;
-}
-
 /*moved the plus icons a little to the top*/
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
@@ -508,10 +504,9 @@ section#contact :-ms-input-placeholder {/* IE 10+ */
     font-weight: 700;
 }
 
-.btn-xl{ /*send message in button*/
+.btn-xl{ /*size of the send message text in button*/
     font-size: 18px;
     padding: 20px 40px;
-    background-color: #730039;
 }
 
 .btn-primary{/*button inside the contact form*/
