@@ -540,12 +540,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 767px) {
-    #portfolio .portfolio-item{
-        margin: 0 0 30px;
-    }
+
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
     section{
         padding: 150px 0;
     }
@@ -589,6 +587,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
+    }
+
+    #portfolio .portfolio-item{
+        margin: 0 0 30px;
     }
 }
 
