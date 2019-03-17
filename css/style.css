@@ -392,9 +392,6 @@ section h3.section-subheading{
     background-color: transparent;
 }
 
-.portfolio-modal .close-modal:hover{
-    opacity: 0.3;
-}
 
 /*draws the line of the closing cross from left bottom to right */
 .portfolio-modal .close-modal .lr{
