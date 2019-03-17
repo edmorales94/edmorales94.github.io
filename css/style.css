@@ -444,6 +444,31 @@ section h3.section-subheading{
 }
 
 
+/*--------------- contact section ------------------------------------------------------------------------------------*/
+section#contact{
+    background-color: #212529;/*changes the background of the contact form*/
+    background-image: url("../images/email-contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#contact .section-heading{
+    color: blanchedalmond;/*Style for the contact title/header*/
+}
+
+section#contact .form-group{
+    margin-bottom: 25px;/*pushes down the button away from the contact form*/
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea{/*increases the space inside the form*/
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control{
+    height: auto;/*name and email space height*/
+}
+
 
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
