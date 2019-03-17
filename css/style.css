@@ -33,13 +33,13 @@ a:hover{
     color: #33eeee !important;
 }
 
-::selection{
-    background: blueviolet;
+::selection{ /*when selection text, the selection color is set here*/
+    background:deepskyblue;
     text-shadow: #006666;
 }
 
 img::selection{
-    background: blueviolet;
+    background: deepskyblue;
 }
 
 img::-moz-selection{
@@ -135,7 +135,7 @@ section h3.section-subheading{
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    content: ' ';
+    content: '';
     background-color: #e9ecef;
 }
 
@@ -184,14 +184,18 @@ section h3.section-subheading{
     position: absolute;
     z-index: 100;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin-left: 0;
     text-align: center;
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
     background-color: #006666;
+}
+
+.timeline li .timeline-image img{
+    color: red;
 }
 
 /*Message in the last timeline balloon*/
@@ -395,7 +399,6 @@ section h3.section-subheading{
 .portfolio-modal .close-modal:hover{
     opacity: 0.3;
 }
-
 
 /*draws the line of the closing cross from left bottom to right */
 .portfolio-modal .close-modal .lr{
