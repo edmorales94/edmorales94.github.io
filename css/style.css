@@ -578,4 +578,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
         line-height: 18px;
         margin-top: 16px;
     }
+
+    .timeline > li .timeline-image h4{
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel{
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
 }
+
