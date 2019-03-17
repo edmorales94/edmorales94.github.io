@@ -539,10 +539,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
-@media (min-width: 767px) {
-
-}
-
 @media (min-width: 768px){
     section{
         padding: 150px 0;
@@ -594,3 +590,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     }
 }
 
+@media (min-width: 992px) {
+    .timeline > li{
+        min-height: 150px;
+    }
+}
