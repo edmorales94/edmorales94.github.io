@@ -473,6 +473,11 @@ section#contact .form-group textarea.form-control{
     height: 248px;/*Changing the size of the message box*/
 }
 
+section#contact .form-control:focus{/*when a box input is clicked, the border color changes*/
+    border-color: red;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
 /*--------------- button's code --------------------------------------------------------------------------------------*/
 .btn{
