@@ -141,12 +141,13 @@ section h3.section-subheading{
     margin-bottom: 50px;
 }
 
+/*adds space between elements of the timeline(space between a bubble and another)*/
 .timeline > li:before, .timeline > li:after{
     display: table;
     content: ' ';
 }
 
-.timeline > li:after{
+.timeline > li::after{/*allos the spacing between bubbles*/
     clear: both;
 }
 
@@ -157,21 +158,6 @@ section h3.section-subheading{
     width: 100%;
     padding: 0 20px 0 100px;
     text-align: left;
-}
-
-.timeline > li .timeline-panel:before{
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-
-.timeline > li .timeline-panel:after{
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
 }
 
 /* Setting the size and position of the timeline pictures*/
@@ -185,12 +171,13 @@ section h3.section-subheading{
     text-align: center;
     color: white;
     border: 7px solid #e9ecef;
-    border-radius: 100%;
+    border-radius: 100%;/*radius for the background behind the pictures*/
     background-color: #006666;
 }
 
-.timeline li .timeline-image img{
-    color: red;
+/*making the image's height match with the circle's height*/
+.timeline > li .timeline-image img{
+    height: 100%;
 }
 
 /*Message in the last timeline balloon*/
@@ -207,21 +194,6 @@ section h3.section-subheading{
     padding: 0 20px 0 100px;
     text-align: left;
     color: #fed136;
-}
-
-
-.timeline > li.timeline-inverted > .timeline-panel:before{
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel:after{
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
 }
 
 .timeline > li:last-child{
@@ -564,4 +536,40 @@ ul.social-buttons li a{ /*changes the size and background color of the social ne
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover{
     background-color: turquoise; /*when hovering over a social link, the dar background changes*/
     color: #730039;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 767px) {
+    #portfolio .portfolio-item{
+        margin: 0 0 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    section{
+        padding: 150px 0;
+    }
+
+    .timeline:before{
+        left: 50%;
+    }
+
+    .timeline > li{
+        min-height: 100px;
+        margin-bottom: 100px;
+    }
+
+    .timeline > li .timeline-panel{
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline > li .timeline-image{
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
 }
