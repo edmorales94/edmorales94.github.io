@@ -544,3 +544,21 @@ footer span.copyright{
     text-transform: none;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+ul.social-buttons{
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a{ /*changes the size and background color of the social networks apps*/
+    font-size: 20px;
+    line-height: 65px;
+    display: block;
+    width: 65px;
+    height: 65px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+}
