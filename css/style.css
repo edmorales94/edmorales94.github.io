@@ -508,9 +508,10 @@ section#contact :-ms-input-placeholder {/* IE 10+ */
     font-weight: 700;
 }
 
-.btn-xl{
+.btn-xl{ /*send message in button*/
     font-size: 18px;
     padding: 20px 40px;
+    background-color: #730039;
 }
 
 .btn-primary{/*button inside the contact form*/
