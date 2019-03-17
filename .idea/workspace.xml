@@ -10,14 +10,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyWebsite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="98" column="783" selection-start-line="98" selection-start-column="783" selection-end-line="98" selection-end-column="783" />
+            <state relative-caret-position="223">
+              <caret line="60" column="14" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="60" selection-end-column="14" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-919">
-              <caret line="365" column="43" selection-start-line="365" selection-start-column="43" selection-end-line="365" selection-end-column="43" />
+            <state relative-caret-position="62">
+              <caret line="324" column="35" lean-forward="true" selection-start-line="324" selection-start-column="35" selection-end-line="324" selection-end-column="35" />
               <folding>
                 <element signature="e#1#68#0" />
                 <element signature="e#74#288#0" />
@@ -75,27 +76,16 @@
                 <element signature="e#5451#5480#0" />
                 <element signature="e#5589#5614#0" />
                 <element signature="e#5753#5802#0" />
-                <element signature="e#5937#5945#0" />
-                <element signature="e#5951#5990#0" />
-                <element signature="e#6087#6197#0" />
-                <element signature="e#6353#6539#0" />
-                <element signature="e#6606#6625#0" />
-                <element signature="e#6760#6786#0" />
-                <element signature="e#6966#6984#0" />
-                <element signature="e#7152#7314#0" />
-                <element signature="e#7415#7503#0" />
-                <element signature="e#7554#7598#0" />
-                <element signature="e#7705#7970#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3451">
-              <caret line="203" column="38" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="38" />
+            <state relative-caret-position="3162">
+              <caret line="186" column="38" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -131,8 +121,11 @@
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/python programs/node.py" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/MyWebsite.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/../../startbootstrap-agency-master/index.html" />
+        <option value="$PROJECT_DIR$/../../startbootstrap-agency-master/css/agency.css" />
+        <option value="$PROJECT_DIR$/../../startbootstrap-agency-master/js/agency.js" />
       </list>
     </option>
   </component>
@@ -167,11 +160,6 @@
             <path>
               <item name="edmorales94.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="edmorales94.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edmorales94.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edmorales94.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -184,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -262,12 +250,15 @@
       <workItem from="1552518659762" duration="6176000" />
       <workItem from="1552525518647" duration="229000" />
       <workItem from="1552538257108" duration="8829000" />
-      <workItem from="1552693901062" duration="7047000" />
+      <workItem from="1552693901062" duration="8675000" />
+      <workItem from="1552706175140" duration="203000" />
+      <workItem from="1552706872500" duration="286000" />
+      <workItem from="1552787823190" duration="589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92023000" />
+    <option name="totallyTimeSpent" value="94729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,17 +321,54 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="203" column="38" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="38" />
+        <state relative-caret-position="357">
+          <caret line="21" column="127" selection-start-line="21" selection-start-column="127" selection-end-line="21" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/js/agency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../startbootstrap-agency-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebsite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="60" column="14" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="60" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-919">
-          <caret line="365" column="43" selection-start-line="365" selection-start-column="43" selection-end-line="365" selection-end-column="43" />
+        <state relative-caret-position="62">
+          <caret line="324" column="35" lean-forward="true" selection-start-line="324" selection-start-column="35" selection-end-line="324" selection-end-column="35" />
           <folding>
             <element signature="e#1#68#0" />
             <element signature="e#74#288#0" />
@@ -380,37 +408,14 @@
             <element signature="e#5451#5480#0" />
             <element signature="e#5589#5614#0" />
             <element signature="e#5753#5802#0" />
-            <element signature="e#5937#5945#0" />
-            <element signature="e#5951#5990#0" />
-            <element signature="e#6087#6197#0" />
-            <element signature="e#6353#6539#0" />
-            <element signature="e#6606#6625#0" />
-            <element signature="e#6760#6786#0" />
-            <element signature="e#6966#6984#0" />
-            <element signature="e#7152#7314#0" />
-            <element signature="e#7415#7503#0" />
-            <element signature="e#7554#7598#0" />
-            <element signature="e#7705#7970#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyWebsite.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="98" column="783" selection-start-line="98" selection-start-column="783" selection-end-line="98" selection-end-column="783" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="3162">
+          <caret line="186" column="38" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
         </state>
       </provider>
     </entry>
