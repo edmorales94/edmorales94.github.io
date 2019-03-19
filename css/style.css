@@ -181,6 +181,7 @@ section h3.section-subheading{
 
 /*making the image's height match with the circle's height*/
 .timeline > li .timeline-image img{
+    width: 100%;
     height: 100%;
 }
 
