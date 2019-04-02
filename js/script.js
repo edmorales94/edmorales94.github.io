@@ -11,16 +11,8 @@ if(widthofhtml < 500){
 console.log("width: " + widthofhtml);
 console.log("total particles:" + totalParticles);
 
-var ball = {
-      x: 0,
-      y: 0,
-      vx: 0,
-      vy: 0,
-      r: 0,
-      alpha: 1,
-      phase: 0
-   },
-   ball_color = {
+let
+    ball_color = {
        r: 255,
        g: 255,
        b: 255
@@ -28,13 +20,11 @@ var ball = {
    R = 2,
    balls = [],
    alpha_f = 0.03,
-   alpha_phase = 0,
 
 // Line
    link_line_width = 1.5,
    dis_limit = 260,
-   add_mouse_point = true,
-   mouse_in = false,
+    mouse_in = false,
    mouse_ball = {
       x: 0,
       y: 0,
@@ -46,24 +36,16 @@ var ball = {
 
 // Random speed
 function getRandomSpeed(pos){
-    var  min = -0.5,
+    let min = -0.5,
        max = 0.5;
-    switch(pos){
-        case 'top':
-            return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
-            break;
-        case 'right':
-            return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
-            break;
-        case 'bottom':
-            return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
-            break;
-        case 'left':
-            return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
-            break;
-        default:
-            return;
-            break;
+    if (pos === 'top') {
+        return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
+    } else if (pos === 'right') {
+        return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
+    } else if (pos === 'bottom') {
+        return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
+    } else if (pos === 'left') {
+        return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
     }
 }
 function randomArrayItem(arr){
@@ -74,52 +56,47 @@ function randomNumFrom(min, max){
 }
 // Random Ball
 function getRandomBall(){
-    var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
-    switch(pos){
-        case 'top':
-            return {
-                x: randomSidePos(can_w),
-                y: -R,
-                vx: getRandomSpeed('top')[0],
-                vy: getRandomSpeed('top')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 10)
-            }
-            break;
-        case 'right':
-            return {
-                x: can_w + R,
-                y: randomSidePos(can_h),
-                vx: getRandomSpeed('right')[0],
-                vy: getRandomSpeed('right')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 10)
-            }
-            break;
-        case 'bottom':
-            return {
-                x: randomSidePos(can_w),
-                y: can_h + R,
-                vx: getRandomSpeed('bottom')[0],
-                vy: getRandomSpeed('bottom')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 10)
-            }
-            break;
-        case 'left':
-            return {
-                x: -R,
-                y: randomSidePos(can_h),
-                vx: getRandomSpeed('left')[0],
-                vy: getRandomSpeed('left')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 10)
-            }
-            break;
+    let pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
+    if (pos === 'top') {
+        return {
+            x: randomSidePos(can_w),
+            y: -R,
+            vx: getRandomSpeed('top')[0],
+            vy: getRandomSpeed('top')[1],
+            r: R,
+            alpha: 1,
+            phase: randomNumFrom(0, 10)
+        }
+    } else if (pos === 'right') {
+        return {
+            x: can_w + R,
+            y: randomSidePos(can_h),
+            vx: getRandomSpeed('right')[0],
+            vy: getRandomSpeed('right')[1],
+            r: R,
+            alpha: 1,
+            phase: randomNumFrom(0, 10)
+        }
+    } else if (pos === 'bottom') {
+        return {
+            x: randomSidePos(can_w),
+            y: can_h + R,
+            vx: getRandomSpeed('bottom')[0],
+            vy: getRandomSpeed('bottom')[1],
+            r: R,
+            alpha: 1,
+            phase: randomNumFrom(0, 10)
+        }
+    } else if (pos === 'left') {
+        return {
+            x: -R,
+            y: randomSidePos(can_h),
+            vx: getRandomSpeed('left')[0],
+            vy: getRandomSpeed('left')[1],
+            r: R,
+            alpha: 1,
+            phase: randomNumFrom(0, 10)
+        }
     }
 }
 function randomSidePos(length){
@@ -142,7 +119,7 @@ function renderBalls(){
 
 // Update balls
 function updateBalls(){
-    var new_balls = [];
+    let new_balls = [];
     Array.prototype.forEach.call(balls, function(b){
         b.x += b.vx;
         b.y += b.vy;
@@ -162,9 +139,9 @@ function updateBalls(){
 
 // Draw lines
 function renderLines(){
-    var fraction, alpha;
-    for (var i = 0; i < balls.length; i++) {
-        for (var j = i + 1; j < balls.length; j++) {
+    let fraction, alpha;
+    for (let i = 0; i < balls.length; i++) {
+        for (let j = i + 1; j < balls.length; j++) {
 
            fraction = getDisOf(balls[i], balls[j]) / dis_limit;
 
@@ -186,7 +163,7 @@ function renderLines(){
 
 // calculate distance between two points
 function getDisOf(b1, b2){
-    var  delta_x = Math.abs(b1.x - b2.x),
+    let  delta_x = Math.abs(b1.x - b2.x),
        delta_y = Math.abs(b1.y - b2.y);
 
     return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
@@ -222,7 +199,7 @@ function render(){
 
 // Init Balls
 function initBalls(num){
-    for(var i = 1; i <= num; i++){
+    for(let i = 1; i <= num; i++){
         balls.push({
             x: randomSidePos(can_w),
             y: randomSidePos(can_h),
@@ -242,7 +219,7 @@ function initCanvas(){
     can_w = parseInt(canvas.getAttribute('width'));
     can_h = parseInt(canvas.getAttribute('height'));
 }
-window.addEventListener('resize', function(e){
+window.addEventListener('resize', function(){
     console.log('Window Resize...');
     initCanvas();
     ctx.font = "30px Comic Sans MS";
@@ -266,7 +243,7 @@ canvas.addEventListener('mouseenter', function(){
 canvas.addEventListener('mouseleave', function(){
     console.log('mouseleave');
     mouse_in = false;
-    var new_balls = [];
+    let new_balls = [];
     Array.prototype.forEach.call(balls, function(b){
         if(!b.hasOwnProperty('type')){
             new_balls.push(b);
@@ -275,9 +252,9 @@ canvas.addEventListener('mouseleave', function(){
     balls = new_balls.slice(0);
 });
 canvas.addEventListener('mousemove', function(e){
-    var e = e || window.event;
-    mouse_ball.x = e.pageX;
-    mouse_ball.y = e.pageY;
+    let site = e || window.event;
+    mouse_ball.x = site.pageX;
+    mouse_ball.y = site.pageY;
     // console.log(mouse_ball);
 });
 
