@@ -258,7 +258,28 @@ canvas.addEventListener('mousemove', function(e){
     // console.log(mouse_ball);
 });
 
+(function ($) {
 
+    //smooth scrolling using jQuery
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            let target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: (target.offset().top - 54)
+                }, 1000, "easeInOutExpo");
+                return false;
+            }
+        }
+    });
+
+    $('body').scrollspy({
+        target:'#navigationBar',
+        offset:56
+    });
+
+})(jQuery);
 
 
 
