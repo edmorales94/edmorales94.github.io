@@ -258,11 +258,11 @@ canvas.addEventListener('mousemove', function(e){
     // console.log(mouse_ball);
 });
 
-(function ($) {
+(function($){
+    "use strict";
 
-    //smooth scrolling using jQuery
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+        if(location.pathname.replace(/^\//, '')== this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             let target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
@@ -275,11 +275,21 @@ canvas.addEventListener('mousemove', function(e){
     });
 
     $('body').scrollspy({
-        target:'#navigationBar',
-        offset:56
+        target: '#navigationBar',
+        offset: 0
     });
-
 })(jQuery);
+
+let navBar = document.getElementById("navigationBar");
+let links = navBar.getElementsByClassName("nav-item");
+
+for(let i = 0; i < links.length; i++){
+    links[i].addEventListener("click", function () {
+        let current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active"
+    });
+}
 
 
 
