@@ -99,8 +99,8 @@ section{
     padding: 70px 0;
 }
 
-section#about, section#services, section#portfolio{
-    margin-top: -100px;
+section #services, section#portfolio{
+    margin-top: -150px;
 }
 
 section h2.section-heading{
@@ -135,7 +135,7 @@ section h3.section-subheading{
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: #e9ecef;
+    background-color: cyan;
 }
 
 /*This part hides the timeline line behind a picture*/
@@ -173,8 +173,8 @@ section h3.section-subheading{
     height: 90px;
     margin-left: 0;
     text-align: center;
-    color: white;
-    border: 7px solid #e9ecef;
+    color: red;
+    border: 7px solid blue;
     border-radius: 100%;/*radius for the background behind the pictures*/
     background-color: #006666;
 }
