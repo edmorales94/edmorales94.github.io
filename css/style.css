@@ -99,8 +99,13 @@ section{
     padding: 70px 0;
 }
 
-section #services, section#portfolio{
-    margin-top: -150px;
+section #about{
+    margin-top: -130px;
+    margin-bottom: -250px;
+}
+
+section #services{
+   margin-bottom: -84px;
 }
 
 section h2.section-heading{
