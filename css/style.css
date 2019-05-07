@@ -549,6 +549,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 300px) {
+    .timeline > li:last-child{
+        margin-bottom: 228px;
+    }
+}
+
+@media (min-width: 400px) {
+    .timeline > li:last-child{
+        margin-bottom: 228px;
+    }
+}
 @media (min-width: 768px){
     section{
         padding: 150px 0;
