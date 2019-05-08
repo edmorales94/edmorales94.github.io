@@ -2,6 +2,7 @@ body{
     overflow-x: hidden;
     /*Explanation: https://github.com/necolas/normalize.css/issues/665 */
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,6 +44,13 @@ img::-moz-selection{/*firefox*/
 
 
 /*--------------- Navigation bar code --------------------------------------------------------------------------------*/
+.navbar{
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,13,255,1) 100%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,13,255,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,13,255,1) 100%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
 #navigationBar{
     background-color: #212529;
 }
