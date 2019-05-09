@@ -276,7 +276,7 @@ canvas.addEventListener('mousemove', function(e){
 
     $('body').scrollspy({
         target: '#navigationBar',
-        offset: -50
+        offset: 15
     });
 })(jQuery);
 
