@@ -135,7 +135,7 @@ const sectionsObserver = new IntersectionObserver((sections)=>{
                     navLinks[2].classList.remove('nav-item-active');
                     navLinks[3].classList.remove('nav-item-active');
                     navLinks[4].classList.remove('nav-item-active');
-                    //window.history.pushState("#intro", "intro", "/");
+                    window.history.pushState("#intro", "intro", "/");
                     break;
                 case "about":
                     navLinks[1].classList.add('nav-item-active');

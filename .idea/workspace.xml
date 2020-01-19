@@ -3,74 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9927f42-5da5-47b4-bcb2-b7c63f7e99c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/_custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/bootstrap-grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_hover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_text-emphasis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_text-hide.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_text-truncate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/mixins/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/utilities/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-grid-only-css/scss/utilities/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/angular.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/excanvas.compiled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/img/easy-pie-chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/old-ie.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/requirejs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/demo/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/dist/angular.easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/dist/angular.easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/dist/easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/dist/easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/dist/jquery.easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/dist/jquery.easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/README.tmpl.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/bagdes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/browser-support.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/callbacks.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/credits.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/features.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/get-started.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/options.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/plugin-api.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/docs/test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/karma.conf.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/src/angular.directive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/src/easypiechart.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/easypiechart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/src/jquery.plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/src/renderer/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/test/polyfills/bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/test/unit/angular.directive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/easy-pie-chart/test/unit/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/frontend.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,14 +134,7 @@
       <workItem from="1579463685140" duration="462000" />
       <workItem from="1579464173692" duration="4266000" />
       <workItem from="1579472363574" duration="47000" />
-      <workItem from="1579472543259" duration="615000" />
-    </task>
-    <task id="LOCAL-00180" summary="changed the position of the intro message for screens of 365px, 375px, and 414px">
-      <created>1577918886911</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1577918886911</updated>
+      <workItem from="1579472543259" duration="959000" />
     </task>
     <task id="LOCAL-00181" summary="Added some bootstraps classes">
       <created>1577920112726</created>
@@ -546,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579467093007</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="Changed the memory size of the picture">
+      <created>1579473252613</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1579473252613</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,10 +531,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="234" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1577395063054" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1579467092296">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1579473251575">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579467092296" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579473251575" />
     <state x="122" y="50" key="DiffContextDialog" timestamp="1575089723104">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -674,10 +607,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1574724299005" />
-    <state x="234" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578806878840">
+    <state x="234" y="73" key="Vcs.Push.Dialog.v2" timestamp="1579473506574">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578806878840" />
+    <state x="234" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579473506574" />
     <state x="298" y="151" key="run.anything.popup" timestamp="1577914909997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
