@@ -8,8 +8,6 @@ let totalParticles = 60;
 if(widthofhtml < 500){
     totalParticles = 38;
 }
-console.log("width: " + widthofhtml);
-console.log("total particles:" + totalParticles);
 
 let
     ball_color = {
@@ -48,12 +46,15 @@ function getRandomSpeed(pos){
         return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
     }
 }
+
 function randomArrayItem(arr){
     return arr[Math.floor(Math.random() * arr.length)];
 }
+
 function randomNumFrom(min, max){
     return Math.random()*(max - min) + min;
 }
+
 // Random Ball
 function getRandomBall(){
     let pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
@@ -99,6 +100,7 @@ function getRandomBall(){
         }
     }
 }
+
 function randomSidePos(length){
     return Math.ceil(Math.random() * length);
 }
@@ -211,6 +213,7 @@ function initBalls(num){
         });
     }
 }
+
 // Init Canvas
 function initCanvas(){
     canvas.setAttribute('width', window.innerWidth);
@@ -219,6 +222,7 @@ function initCanvas(){
     can_w = parseInt(canvas.getAttribute('width'));
     can_h = parseInt(canvas.getAttribute('height'));
 }
+
 window.addEventListener('resize', function(){
     console.log('Window Resize...');
     initCanvas();
@@ -236,12 +240,11 @@ goMovie();
 
 // Mouse effect
 canvas.addEventListener('mouseenter', function(){
-    console.log('mouseenter');
     mouse_in = true;
     balls.push(mouse_ball);
 });
+
 canvas.addEventListener('mouseleave', function(){
-    console.log('mouseleave');
     mouse_in = false;
     let new_balls = [];
     Array.prototype.forEach.call(balls, function(b){
@@ -251,6 +254,7 @@ canvas.addEventListener('mouseleave', function(){
     });
     balls = new_balls.slice(0);
 });
+
 canvas.addEventListener('mousemove', function(e){
     let site = e || window.event;
     mouse_ball.x = site.pageX;
@@ -258,38 +262,15 @@ canvas.addEventListener('mousemove', function(e){
     // console.log(mouse_ball);
 });
 
-(function($){
+!function(e){
     "use strict";
+    e('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function(){
+        if(location.pathname.replace(/^\//,"")===this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){
+            let a=e(this.hash);
+            if((a=a.length?a:e("[name="+this.hash.slice(1)+"]")).length)
+                return e("html, body").animate({scrollTop:a.offset().top-54},1e3,"easeInOutExpo"),!1}}),e(".js-scroll-trigger").click(function(){e(".navbar-collapse").collapse("hide")}),e("body").scrollspy({target:"#navigationBar",offset:56});
+    function a(){100<e("#navigationBar").offset().top?e("#navigationBar").addClass("navbar-shrink"):e("#navigationBar").removeClass("navbar-shrink")}a(),e(window).scroll(a)}(jQuery);
 
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-        if(location.pathname.replace(/^\//, '')== this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            let target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: (target.offset().top - 54)
-                }, 1000, "easeInOutExpo");
-                return false;
-            }
-        }
-    });
-
-    $('body').scrollspy({
-        target: '#navigationBar',
-        offset: 15
-    });
-})(jQuery);
-
-let navBar = document.getElementById("navigationBar");
-let links = navBar.getElementsByClassName("nav-item");
-
-for(let i = 0; i < links.length; i++){
-    links[i].addEventListener("click", function () {
-        let current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active"
-    });
-}
 
 
 

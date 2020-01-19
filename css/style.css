@@ -46,11 +46,9 @@ img::-moz-selection{/*firefox*/
 /*--------------- Navigation bar code --------------------------------------------------------------------------------*/
 .navbar{
     background: rgb(2,0,36);
-    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,13,255,1) 100%, rgba(0,212,255,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,13,255,1) 100%, rgba(0,212,255,1) 100%);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,13,255,1) 100%, rgba(0,212,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 }
+
 #navigationBar{
     background-color: #212529;
 }
@@ -103,17 +101,10 @@ canvas{
 }
 
 /*--------------- Sections style code --------------------------------------------------------------------------------*/
-section{
-    padding: 70px 0;
-}
-
-section #about{
-    margin-top: -100px;
-    margin-bottom: -450px;
-}
-
-section #services{
-   margin-bottom: -84px;
+#about{
+    margin-top: -10%;
+    margin-bottom: -28%;
+    background-color: #33eeee;
 }
 
 section h2.section-heading{
@@ -214,10 +205,6 @@ section h3.section-subheading{
     color: #fed136;
 }
 
-.timeline > li:last-child{
-    margin-bottom: 0;
-}
-
 /* can changed the color of the headings of the timeline*/
 .timeline .timeline-heading h4{
     margin-top: 0;
@@ -235,12 +222,29 @@ section h3.section-subheading{
 }
 
 /*--------------- services code --------------------------------------------------------------------------------------*/
+section#services{
+    background-color: #730039;
+    margin-bottom: -22%;
+}
+
+#service-title{
+    margin-top: -11%;
+    background-color: green;
+}
 .service-heading{
     margin: 15px 0;
     text-transform: none;
 }
 
 /*--------------- Portfolio section code -----------------------------------------------------------------------------*/
+section#portfolio{
+    background-color: #fec810;
+    margin-top: auto;
+}
+#portfolio-title{
+    background-color: #fec810;
+}
+
 #portfolio *{
     z-index: 2;
 }
@@ -322,7 +326,7 @@ section h3.section-subheading{
 
 /*--------------- Portfolio modals -----------------------------------------------------------------------------------*/
 .portfolio-modal{
-    padding-right: 0px !important;
+    padding-right: 0 !important;
 }
 
 /*makes the modal use almost the full screen*/
@@ -568,6 +572,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
         margin-bottom: 228px;
     }
 }
+
 @media (min-width: 768px){
     section{
         padding: 150px 0;
