@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "These files are used to create a programming portfolio to show my works and get jobs as a freelancer.",
+  "main": "scripts/backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmorales94/Personal-Website.git"
+  },
+  "keywords": [
+    "Freelancer",
+    "Fullstack",
+    "Developer",
+    "Programmer"
+  ],
+  "author": "Edgar I. Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmorales94/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/edmorales94/Personal-Website#readme",
+  "dependencies": {
+    "bootstrap-grid-only-css": "^4.1.3",
+    "easy-pie-chart": "^2.1.7"
+  }
+}

@@ -1,4 +1,2 @@
 # Personal-Website
-"This is the code behind the website I'm using to show my portfolio to recruiters" 
-
-https://edmorales94.github.io/
+This repository contains the files that I created for my website which will be used to publish some of my works as a freelancer.

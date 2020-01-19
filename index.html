@@ -1,14 +1,251 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="This is my website as a freelancer to show projects to recruiters.">
+        <meta name="keywords" content="freelancer, full stack, web developer, front-end, back-end, programmer">
+        <meta name="author" content="Edgar I. Morales">
+        <script src="https://use.fontawesome.com/7cf544cf2d.js"></script>
+        <link type="text/css" rel="stylesheet" href="styles/style.css">
+        <link type="text/css" rel="stylesheet" href="styles/responsive-styles.css">
+        <link type="text/css" rel="stylesheet" href="node_modules/bootstrap-grid-only-css/dist/css/bootstrap-grid.min.css">
         <title>CodEd</title>
-        <link rel="stylesheet" href="css/loadingAnimation.css">
     </head>
     <body>
-        <div class="ring">
-            Site under construction
-            <span></span>
-        </div>
+        <header>
+            <nav id="navBar">
+                <a href="index.html"><img src="images/Logo.png" alt="page logo" class="logo"></a>
+                <ul>
+                    <li><a class="scroll" href="#intro">Home</a></li>
+                    <li><a class="scroll" href="#about">About</a></li>
+                    <li><a class="scroll" href="#services">Services</a></li>
+                    <!--<li><a class="scroll" href="#">Works</a></li>-->
+                    <li><a class="scroll" href="#skills">Skills</a></li>
+                    <li><a class="scroll" href="#contact-section">Contact</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="intro" class="bootstrap-wrapper">
+            <div class="container">
+                <h1 id="intro-message">I<span class="typing-carousel" data-wait="3000" data-words= '["Am A Web Developer.", "Develop Cool Websites.", "Am Edgar Morales."]'></span></h1>
+                <div id="intro-catchy-phrase">
+                    <h2>Ready to turn your idea into reality?</h2>
+                    <h4>Let's make it <strong>awesome</strong> and totally <strong>functional.</strong>
+                        <br>I can help you create positive and permanent changes in your life or business.</h4>
+                </div>
+                <a id="down-arrow" href="#about">
+                    <i class="fa fa-chevron-down fa-2x"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="bootstrap-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="about-item about-title"><h2>About</h2></div>
+                    <div class="about-item about-title-right-corner" ></div>
+                    <div class="about-item about-picture"><img src="images/profile.png" alt="Edgar Morales"></div>
+                    <div class="about-item about-intro">
+                        <p>Hello! I'm Edgar Morales but my friends call me "Ed"; I was the one who "codEd" this whole website. Get it? Ok no.
+                            I'm a full stack developer from USA, New York.<br>
+                            <br>I am passionate about building excellent software and websites that improve the lives of those around me.
+                            I specialize in creating products for clients ranging from individuals to small-businesses.<br>
+                            <br>What would you do if you had a developer available at your fingertips? Are you ready to bring your idea to life?<br>
+                            What are you waiting for? Let's get to work!
+                        </p>
+                    </div>
+                    <div class="about-item about-adjectives">
+                        <ul>
+                            <li><strong>Age:</strong> 25</li>
+                            <li><strong>Freelance:</strong> Available</li>
+                            <li><strong>Phone:</strong> </li>
+                        </ul>
+                    </div>
+                    <div class="about-item about-adjectives">
+                        <ul>
+                            <li><strong>Residence:</strong> USA</li>
+                            <li><strong>Address:</strong> New York</li>
+                            <li><strong>Email:</strong> </li>
+                        </ul>
+                    </div>
+                    <div class="about-item corner-bottom-left" ></div>
+                    <div class="about-item middle-bottom-cell">
+                        <a href="Documents/Edgar%20Morales%20-%20Resume%202019.pdf" class="download-resume">Download Resume</a>
+                    </div>
+                    <div class="about-item corner-bottom-right" ></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="bootstrap-wrapper">
+            <div class="container">
+                <div class="row">
+                    <h2 id="service-title">Services</h2>
+                </div>
+                <div class="row">
+                    <h3 id="service-subtitle">From concept to creation</h3>
+                </div>
+                <div class="row">
+                    <p id="service-intro"><br>Web and Software development are hard. Managing projects is complicated. Working remotely is arduous.
+                        Here are some things I'm good at, to help ease the pain.</p>
+                </div>
+                <div class="row">
+                    <div id="services-items">
+                        <div class="service-item">
+                            <figure>
+                                <img src="images/mac.jpeg" alt="website" class="service-picture">
+                            </figure>
+                            <h4 class="picture-legend-title">Web Development</h4>
+                            <p class="picture-legend-paragraph">Modern and mobile-ready websites that will help you reach all of your marketing.</p>
+                        </div>
+                        <div class="service-item">
+                            <figure>
+                                <img src="images/design.jpeg" alt="design" class="service-picture">
+                            </figure>
+                            <h4 class="picture-legend-title">UI/UX Design</h4>
+                            <p class="picture-legend-paragraph">By balancing the needs of the business and technology with the needs of the people,
+                                we create a rich user experience</p>
+                        </div>
+                        <div class="service-item" >
+                            <figure>
+                                <img src="images/js.jpeg" alt="Javascript code" class="service-picture">
+                            </figure>
+                            <h4 class="picture-legend-title">Programming</h4>
+                            <p class="picture-legend-paragraph">Make your business or idea more efficient by
+                                building and creating software and applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="bootstrap-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Skills and Programming Languages</h3>
+                    </div>
+
+                    <div id="skills-laptop-container" class="col-sm-5 col-md-5">
+                        <img id="skills-laptop" src="images/skills-picture.jpeg" alt="laptop">
+                    </div>
+
+                    <div id="skills-description" class="col-sm-7 col-md-7">
+                        <p id="skills-text">
+                            I specialize in helping people just like you overcome the obstacles keeping them from accomplishing their goals and dreams.
+                            In this section, you will find the languages I used to tackle such obstacles.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="charts" class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="charts-container">
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="90">90%<br>HTML</div>
+                            </div>
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="85">85%<br>CSS</div>
+                            </div>
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="85">85%<br>JavaScript</div>
+                            </div>
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="80">80%<br>Bootstrap</div>
+                            </div>
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="80">80%<br>jQuery</div>
+                            </div>
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="93">93%<br>Java</div>
+                            </div>
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="90">90%<br>Python</div>
+                            </div>
+                            <div class="chart-item col-sm-2 col-md-2 col-lg-1">
+                                <div class="chart" data-percent="80">80%<br>Nodejs</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="bootstrap-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2"></div>
+                    <div class="col-md-8 col-lg-8">
+                        <div class="contact-title">
+                            <h1>Contact</h1>
+                            <h3>Have I convinced you to hire me?</h3>
+                            <p>Contact me via the contact form below your idea. I am are here to answer any question.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-lg-2"></div>
+                    <div class="col-md-8 col-lg-8">
+                       <form>
+                           <div>
+                               <input class="input-text required-field" type="text" name="contactName" id="contactName" placeholder="Name" title="Your Full Name">
+                           </div>
+                           <div>
+                               <input class="input-text required-field email-field" type="email" name="contactEmail" id="contactEmail" placeholder="Email" title="Your Email">
+                           </div>
+                           <div>
+                               <input class="input-text required-field" type="text" name="contactSubject" id="contactSubject" placeholder="Subject" title="Your Subject">
+                           </div>
+                           <div>
+                               <textarea class="input-text required-field" name="contactMessage" id="contactMessage" placeholder="Message" title="Your Message"></textarea>
+                           </div>
+                           <input class="button" type="submit" value="Send Message">
+                       </form>
+                    </div>
+                    <div class="col-md-3 col-lg-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bootstrap-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div id="copy-right" class="col-sm-12 col-md-4 col-lg-5">
+                        <p>&copy; 2020 Edgar Morales<p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-6">
+                        <ul id="social-media">
+                            <li>
+                                <a href="https://www.linkedin.com/in/edgar-morales-64760688">
+                                    <i class="fa fa-linkedin fa-2x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/edmorales94">
+                                    <i class="fa fa-github fa-2x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-instagram fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script type="text/javascript" rel="script" src="scripts/frontend.js"></script>
+    <script type="text/javascript" rel="script" src="node_modules/easy-pie-chart/src/easypiechart.js"></script>
+    <script type="text/javascript" rel="script" src="node_modules/easy-pie-chart/src/renderer/canvas.js"></script>
     </body>
 </html>
