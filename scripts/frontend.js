@@ -98,6 +98,10 @@ const navSlide = () =>{
             else{
                 link.style.animation = `linksFade 500ms ease forwards ${index/7 + 0.5}s`;
             }
+            /*link.addEventListener('click', ()=>{
+                burger.classList.toggle('toggle');
+                nav.classList.toggle('nav-active');
+            })*/
         });
         burger.classList.toggle('toggle');
     });
@@ -135,7 +139,6 @@ const sectionsObserver = new IntersectionObserver((sections)=>{
                     navLinks[2].classList.remove('nav-item-active');
                     navLinks[3].classList.remove('nav-item-active');
                     navLinks[4].classList.remove('nav-item-active');
-                    window.history.pushState("#intro", "intro", "/");
                     break;
                 case "about":
                     navLinks[1].classList.add('nav-item-active');

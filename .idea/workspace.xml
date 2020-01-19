@@ -134,14 +134,7 @@
       <workItem from="1579463685140" duration="462000" />
       <workItem from="1579464173692" duration="4266000" />
       <workItem from="1579472363574" duration="47000" />
-      <workItem from="1579472543259" duration="959000" />
-    </task>
-    <task id="LOCAL-00181" summary="Added some bootstraps classes">
-      <created>1577920112726</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1577920112726</updated>
+      <workItem from="1579472543259" duration="2501000" />
     </task>
     <task id="LOCAL-00182" summary="services and skill section are responsive for 812px screens">
       <created>1577920492937</created>
@@ -479,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579473252613</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Changed the memory size of the picture">
+      <created>1579473512695</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1579473512696</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,10 +531,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="234" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1577395063054" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1579473251575">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1579473511547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579473251575" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579473511547" />
     <state x="122" y="50" key="DiffContextDialog" timestamp="1575089723104">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -607,10 +607,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1574724299005" />
-    <state x="234" y="73" key="Vcs.Push.Dialog.v2" timestamp="1579473506574">
+    <state x="234" y="73" key="Vcs.Push.Dialog.v2" timestamp="1579473517528">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579473506574" />
+    <state x="234" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579473517528" />
     <state x="298" y="151" key="run.anything.popup" timestamp="1577914909997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
