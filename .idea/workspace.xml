@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ffc852e-7c30-4e00-9612-28eae7683bc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWebsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebsite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+    <list default="true" id="e9927f42-5da5-47b4-bcb2-b7c63f7e99c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,141 +18,464 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>text-primary</find>
-      <find>but</find>
-      <find>btn-xl</find>
-      <find>close</find>
-      <find>navbar-collapse</find>
-      <find>set</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Edgar-Sama\WebstormProjects\Personal-Website\.idea" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectId" id="1PZpYsnmh1CRgLypvm60pMld98V" />
+  <component name="ProjectId" id="1U7sQAEXyrVFNnYS6RCnBzZet6N" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web-developer-bootcamp-projects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Edgar-Sama\WebstormProjects\Personal-Website\scripts" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="node" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="edmorales94.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/python programs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/python programs/node.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ffc852e-7c30-4e00-9612-28eae7683bc0" name="Default Changelist" comment="" />
-      <created>1548727474199</created>
+      <changelist id="e9927f42-5da5-47b4-bcb2-b7c63f7e99c7" name="Default Changelist" comment="" />
+      <created>1574718949889</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548727474199</updated>
-      <workItem from="1548727477538" duration="2794000" />
-      <workItem from="1549069955658" duration="72000" />
-      <workItem from="1549070141363" duration="8151000" />
-      <workItem from="1551312977145" duration="4712000" />
-      <workItem from="1551391733520" duration="3873000" />
-      <workItem from="1551651023888" duration="402000" />
-      <workItem from="1551751337790" duration="600000" />
-      <workItem from="1551751977557" duration="7556000" />
-      <workItem from="1551761736907" duration="353000" />
-      <workItem from="1551817553966" duration="32000" />
-      <workItem from="1551911345118" duration="1261000" />
-      <workItem from="1551917380231" duration="668000" />
-      <workItem from="1551918177488" duration="4849000" />
-      <workItem from="1551923246893" duration="693000" />
-      <workItem from="1552007229255" duration="4997000" />
-      <workItem from="1552095689529" duration="4590000" />
-      <workItem from="1552100447495" duration="702000" />
-      <workItem from="1552185515113" duration="6741000" />
-      <workItem from="1552193015185" duration="974000" />
-      <workItem from="1552254640718" duration="12527000" />
-      <workItem from="1552354295178" duration="37000" />
-      <workItem from="1552355230710" duration="3158000" />
-      <workItem from="1552518659762" duration="6176000" />
-      <workItem from="1552525518647" duration="229000" />
-      <workItem from="1552538257108" duration="8829000" />
-      <workItem from="1552693901062" duration="8675000" />
-      <workItem from="1552706175140" duration="203000" />
-      <workItem from="1552706872500" duration="286000" />
-      <workItem from="1552787823190" duration="9490000" />
-      <workItem from="1552858096674" duration="8241000" />
-      <workItem from="1552872137858" duration="855000" />
-      <workItem from="1552957445713" duration="5892000" />
-      <workItem from="1554167904613" duration="331000" />
-      <workItem from="1554168445701" duration="3013000" />
-      <workItem from="1554333018404" duration="5595000" />
-      <workItem from="1557260777367" duration="35000" />
-      <workItem from="1557260962142" duration="1152000" />
-      <workItem from="1557262494185" duration="3645000" />
-      <workItem from="1557266376813" duration="973000" />
-      <workItem from="1557357348395" duration="32000" />
-      <workItem from="1557357506156" duration="5675000" />
-      <workItem from="1566091527281" duration="5936000" />
-      <workItem from="1566606644396" duration="21000" />
-      <workItem from="1566606723012" duration="202000" />
-      <workItem from="1572744191506" duration="46000" />
+      <updated>1574718949889</updated>
+      <workItem from="1574718952477" duration="29000" />
+      <workItem from="1574719055039" duration="9632000" />
+      <workItem from="1574814247980" duration="5339000" />
+      <workItem from="1574901123728" duration="6296000" />
+      <workItem from="1574910468987" duration="5483000" />
+      <workItem from="1574916512837" duration="339000" />
+      <workItem from="1574970562161" duration="147000" />
+      <workItem from="1575081639516" duration="8687000" />
+      <workItem from="1575162368518" duration="15883000" />
+      <workItem from="1575227684029" duration="21236000" />
+      <workItem from="1575251262364" duration="54000" />
+      <workItem from="1575251331065" duration="319000" />
+      <workItem from="1575321322944" duration="347000" />
+      <workItem from="1575335386064" duration="3182000" />
+      <workItem from="1575416509301" duration="4162000" />
+      <workItem from="1575499629162" duration="12905000" />
+      <workItem from="1575587898507" duration="4604000" />
+      <workItem from="1575682488108" duration="14069000" />
+      <workItem from="1575843673903" duration="5897000" />
+      <workItem from="1575856059047" duration="74000" />
+      <workItem from="1576798535558" duration="4970000" />
+      <workItem from="1577048797290" duration="10016000" />
+      <workItem from="1577145149809" duration="9214000" />
+      <workItem from="1577219376448" duration="9660000" />
+      <workItem from="1577317276252" duration="11609000" />
+      <workItem from="1577380538399" duration="13933000" />
+      <workItem from="1577491460240" duration="8074000" />
+      <workItem from="1577560124858" duration="14049000" />
+      <workItem from="1577653974270" duration="14446000" />
+      <workItem from="1577747398885" duration="11126000" />
+      <workItem from="1577913940106" duration="11709000" />
+      <workItem from="1578173113098" duration="8691000" />
+      <workItem from="1578190546370" duration="9286000" />
+      <workItem from="1578773898150" duration="8099000" />
+      <workItem from="1578793334671" duration="12577000" />
+      <workItem from="1578872462603" duration="372000" />
+      <workItem from="1579463685140" duration="462000" />
+      <workItem from="1579464173692" duration="4266000" />
     </task>
+    <task id="LOCAL-00180" summary="changed the position of the intro message for screens of 365px, 375px, and 414px">
+      <created>1577918886911</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1577918886911</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Added some bootstraps classes">
+      <created>1577920112726</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1577920112726</updated>
+    </task>
+    <task id="LOCAL-00182" summary="services and skill section are responsive for 812px screens">
+      <created>1577920492937</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1577920492937</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Contact section is done for screens 812px">
+      <created>1577920993012</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1577920993012</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Added some bootstraps classes">
+      <created>1577921005487</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1577921005487</updated>
+    </task>
+    <task id="LOCAL-00185" summary="the menu burger disappears when the screen is 812px and the nav bar links appear on their default position">
+      <created>1577925037158</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1577925037158</updated>
+    </task>
+    <task id="LOCAL-00186" summary="changed the size of the rule to fit galaxy phones">
+      <created>1578174584477</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1578174584478</updated>
+    </task>
+    <task id="LOCAL-00187" summary="added size to fit galaxy phones">
+      <created>1578176424593</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1578176424594</updated>
+    </task>
+    <task id="LOCAL-00188" summary="changed the height">
+      <created>1578178743348</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1578178743348</updated>
+    </task>
+    <task id="LOCAL-00189" summary="changed rule for the about section to not mess with the mobile responsive code">
+      <created>1578180241708</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1578180241708</updated>
+    </task>
+    <task id="LOCAL-00190" summary="changed widths">
+      <created>1578180621014</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1578180621014</updated>
+    </task>
+    <task id="LOCAL-00191" summary="changed widths">
+      <created>1578181823877</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1578181823878</updated>
+    </task>
+    <task id="LOCAL-00192" summary="moved responsive code to responsive-styles.css">
+      <created>1578190876715</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1578190876716</updated>
+    </task>
+    <task id="LOCAL-00193" summary="moved responsive code to responsive-styles.css">
+      <created>1578190887239</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1578190887239</updated>
+    </task>
+    <task id="LOCAL-00194" summary="deleted unnecessary code">
+      <created>1578190985581</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1578190985581</updated>
+    </task>
+    <task id="LOCAL-00195" summary="Added some bootstraps classes">
+      <created>1578192904041</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1578192904041</updated>
+    </task>
+    <task id="LOCAL-00196" summary="changed items sizes">
+      <created>1578192930065</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1578192930065</updated>
+    </task>
+    <task id="LOCAL-00197" summary="changed items sizes">
+      <created>1578195754126</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1578195754126</updated>
+    </task>
+    <task id="LOCAL-00198" summary="changed items sizes">
+      <created>1578195776716</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1578195776716</updated>
+    </task>
+    <task id="LOCAL-00199" summary="center the text in the div">
+      <created>1578196927027</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1578196927027</updated>
+    </task>
+    <task id="LOCAL-00200" summary="changed the col classes">
+      <created>1578196946482</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1578196946482</updated>
+    </task>
+    <task id="LOCAL-00201" summary="the padding of the text inside the graphs for screens 320 to 480px">
+      <created>1578197381158</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1578197381158</updated>
+    </task>
+    <task id="LOCAL-00202" summary="the padding of the text inside the graphs for screens of 568px">
+      <created>1578197601364</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1578197601364</updated>
+    </task>
+    <task id="LOCAL-00203" summary="changed the padding for the text of the graphs">
+      <created>1578199795653</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1578199795654</updated>
+    </task>
+    <task id="LOCAL-00204" summary="changed the bootstrap classes">
+      <created>1578199825834</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1578199825834</updated>
+    </task>
+    <task id="LOCAL-00205" summary="Added smooth scrolling">
+      <created>1578776411341</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1578776411342</updated>
+    </task>
+    <task id="LOCAL-00206" summary="Added some bootstraps classes">
+      <created>1578777641958</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1578777641958</updated>
+    </task>
+    <task id="LOCAL-00207" summary="changed the color of the paragraphs and font sizes">
+      <created>1578777667528</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1578777667529</updated>
+    </task>
+    <task id="LOCAL-00208" summary="reduced padding">
+      <created>1578777867709</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1578777867709</updated>
+    </task>
+    <task id="LOCAL-00209" summary="Added some bootstraps classes">
+      <created>1578778394600</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1578778394600</updated>
+    </task>
+    <task id="LOCAL-00210" summary="Deleted unnecessary code">
+      <created>1578778512027</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1578778512027</updated>
+    </task>
+    <task id="LOCAL-00211" summary="Added extra media queries">
+      <created>1578784046585</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1578784046585</updated>
+    </task>
+    <task id="LOCAL-00212" summary="deleted unnecessary code">
+      <created>1578784269076</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1578784269076</updated>
+    </task>
+    <task id="LOCAL-00213" summary="made the font size bigger">
+      <created>1578793796070</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1578793796071</updated>
+    </task>
+    <task id="LOCAL-00214" summary="made the padding smaller">
+      <created>1578794011691</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1578794011692</updated>
+    </task>
+    <task id="LOCAL-00215" summary="removed a class">
+      <created>1578796647968</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1578796647968</updated>
+    </task>
+    <task id="LOCAL-00216" summary="created a class for the active nav item. When the user scrolls to a section, its respective nav item will change.">
+      <created>1578797858962</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1578797858962</updated>
+    </task>
+    <task id="LOCAL-00217" summary="created a class for the navbar. when we get to the about section, the navbar background will change to black or if we go back to the intro, we turn it back to transparent">
+      <created>1578798766929</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1578798766929</updated>
+    </task>
+    <task id="LOCAL-00218" summary="added transition">
+      <created>1578798935078</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1578798935078</updated>
+    </task>
+    <task id="LOCAL-00219" summary="added an Id to get element in js">
+      <created>1578799819584</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1578799819584</updated>
+    </task>
+    <task id="LOCAL-00220" summary="The intro observer works and changes the background color of the navbar when triggered">
+      <created>1578800960368</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1578800960368</updated>
+    </task>
+    <task id="LOCAL-00221" summary="Added a transition for the background of the navbar when its color changes">
+      <created>1578801012980</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1578801012980</updated>
+    </task>
+    <task id="LOCAL-00222" summary="commented some explanation">
+      <created>1578801107298</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1578801107298</updated>
+    </task>
+    <task id="LOCAL-00223" summary="section observer changes the style of the navbar item that it is on">
+      <created>1578805806997</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1578805806997</updated>
+    </task>
+    <task id="LOCAL-00224" summary="makes the active section bigger">
+      <created>1578805824795</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1578805824796</updated>
+    </task>
+    <task id="LOCAL-00225" summary="Will work it">
+      <created>1578806877423</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1578806877423</updated>
+    </task>
+    <task id="LOCAL-00226" summary="Changed the memory size of the picture">
+      <created>1579467064421</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1579467064421</updated>
+    </task>
+    <task id="LOCAL-00227" summary="Changed the memory size of the picture">
+      <created>1579467080609</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1579467080609</updated>
+    </task>
+    <task id="LOCAL-00228" summary="Changed the memory size of the picture">
+      <created>1579467093007</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1579467093007</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -174,19 +493,126 @@
       </map>
     </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the padding of the text inside the graphs for screens 320 to 480px" />
+    <MESSAGE value="the padding of the text inside the graphs for screens of 568px" />
+    <MESSAGE value="changed the padding for the text of the graphs" />
+    <MESSAGE value="changed the bootstrap classes" />
+    <MESSAGE value="Added smooth scrolling" />
+    <MESSAGE value="changed the color of the paragraphs and font sizes" />
+    <MESSAGE value="reduced padding" />
+    <MESSAGE value="Added some bootstraps classes" />
+    <MESSAGE value="Deleted unnecessary code" />
+    <MESSAGE value="Added extra media queries" />
+    <MESSAGE value="deleted unnecessary code" />
+    <MESSAGE value="made the font size bigger" />
+    <MESSAGE value="made the padding smaller" />
+    <MESSAGE value="removed a class" />
+    <MESSAGE value="created a class for the active nav item. When the user scrolls to a section, its respective nav item will change." />
+    <MESSAGE value="created a class for the navbar. when we get to the about section, the navbar background will change to black or if we go back to the intro, we turn it back to transparent" />
+    <MESSAGE value="added transition" />
+    <MESSAGE value="added an Id to get element in js" />
+    <MESSAGE value="The intro observer works and changes the background color of the navbar when triggered" />
+    <MESSAGE value="Added a transition for the background of the navbar when its color changes" />
+    <MESSAGE value="commented some explanation" />
+    <MESSAGE value="section observer changes the style of the navbar item that it is on" />
+    <MESSAGE value="makes the active section bigger" />
+    <MESSAGE value="Will work it" />
+    <MESSAGE value="Changed the memory size of the picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the memory size of the picture" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="234" y="0" key="#Notifications" timestamp="1577395063054">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="234" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1577395063054" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1579467092296">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579467092296" />
+    <state x="122" y="50" key="DiffContextDialog" timestamp="1575089723104">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="122" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1575089723104" />
+    <state x="422" y="95" key="FileChooserDialogImpl" timestamp="1574719183707">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1574719183707" />
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1574724299003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1574724299003" />
+    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1574724299003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1574724299003" />
+    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1574724299003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1574724299003" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.2.center" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.2.left" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.2.right" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom" timestamp="1574724299005">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1574724299005" />
+    <state width="1259" height="204" key="GridCell.Tab.3.center" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.3.left" timestamp="1574724299004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1574724299004" />
+    <state width="1259" height="204" key="GridCell.Tab.3.right" timestamp="1574724299005">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1574724299005" />
+    <state x="234" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578806878840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="234" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578806878840" />
+    <state x="298" y="151" key="run.anything.popup" timestamp="1577914909997">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="298" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1577914909997" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579467645570">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579467645570" />
   </component>
 </project>
